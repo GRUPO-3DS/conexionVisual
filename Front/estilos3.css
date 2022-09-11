@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("img/Mascota\ feliz.png");   
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 80% 80%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+table{
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    table-layout: fixed;
+    border: 2px solid rgb(14, 4, 5);
+}
+tr{
+    padding: 0.3em;
+    color: rgb(5, 5, 5);
+    background-image: radial-gradient(#916f43 0.75px, #e1e1e1 0.75px);
+    background-size: 15px 15px;
+    
+ }
+td{
+    
+    padding: 15px;
+    margin: auto;
+    color: rgb(4, 0, 0);
+    text-align: center;
+    letter-spacing: 1px;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+th{
+    background: beige;
+    border: center;
+    font-family: 'Rock Salt', cursive;
+    font-style: italic;
+    text-align: center;
+ }
+

@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+background-image: url('img/Mascota\ feliz.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  margin: center;
+}
+
+
+header{
+	width: 100%;
+	padding: 20px 0;
+	
+	
+}
+
+.MascotaFeliz{
+	margin: auto;
+	padding: auto;
+	width: 80%;
+	text-align: center;
+	background: rgb(244, 196, 196);
+
+}
+
+.MascotaFeliz ul menu {
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 20px 20px;
+	color: #030000;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #ebe4dd;
+	transition: all .3s;
+}
+
+
+
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: rgb(189, 27, 27);
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
